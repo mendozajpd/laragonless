@@ -21,10 +21,15 @@
 	$name = $_POST['name'];
 	$sex = $_POST['sex'];
 
-    if($sex=='M') {
-        $sex = "Male";
-    } else {
-        $sex = "Female";
+    switch($sex) {
+        case('M'):
+            $sex = "Male";
+            break;
+        case('F'):
+            $sex = "Female";
+            break;
+        default:
+            $sex = "N/A";
     }
 
      echo '<table class="table table-bordered">

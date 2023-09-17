@@ -11,7 +11,6 @@
     <div>
         <br>
         <a href="index.php">Index Page</a>
-        <a href="users.php">Users Page</a> <br><br>
     </div>
 
     <div class="center-half-div">

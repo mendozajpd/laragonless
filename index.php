@@ -14,7 +14,6 @@
 
     <div class="center-div">
         <a href="register.php">Register</a> <br>
-        <a href="users.php">Check Users</a> <br>
     </div>
 </body>
 </html>
